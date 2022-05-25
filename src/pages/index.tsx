@@ -47,7 +47,6 @@ export default function SignIn() {
             name="email"
             type="email"
             label="E-mail"
-            id="email"
             error={errors.email}
             {...register('email')}
           />
@@ -55,7 +54,6 @@ export default function SignIn() {
             name="password"
             type="password"
             label="Senha"
-            id="password"
             error={errors.password}
             {...register('password')}
           />
